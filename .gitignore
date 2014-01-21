@@ -1,0 +1,7 @@
+locales/
+node-modules/
+views/
+routes/
+./devnotes.txt
+./nodemon.js
+!.gitignore

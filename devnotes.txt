@@ -1,0 +1,6 @@
+DEVELOPMENT NOTES
+-MONGO-DB
+User info stored in 
+"db.userregistry"
+User accounts deleted after one week if email not confirmed
+db.userregistry.ensureIndex({ "createtime": 1 }, { expireAfterSeconds: 604800 })
