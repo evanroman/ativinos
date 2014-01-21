@@ -1,7 +1,7 @@
 locales/
-node-modules/
+node_modules/
 views/
 routes/
-./devnotes.txt
-./nodemon.js
+devnotes.txt
+nodemon.js
 !.gitignore
