@@ -1,0 +1,103 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    background: #EEE;
+    margin: 0 auto;
+    line-height: 1.7em;
+}
+a:link,
+a:visited {
+    text-decoration:none;
+}
+a:hover,
+a:focus {
+    text-decoration:underline;
+}
+.l-box {
+    padding: 1em;
+}
+
+.header {
+    margin: 0 0;
+    background:#6B663B
+}
+
+    .header .pure-u-1 {
+        padding: 0.6em;
+    }   .header .pure-u-1 a{margin: 0.3em 0.3em;background: none;border: none;color: #fff;font-size: 1.2em;}
+        .header .pure-u-1 ul{float:right;list-style-type:none;margin:0;}
+        .header .pure-u-1 li{float: left;display:inline;text-align:center;}
+
+        .header .pure-u-1 li a{font-size: 0.9em;}
+.pure-button-primary {
+    background: #6B663B;
+    color: #fff;
+    
+}
+body .primary-button {
+    background: #6B663B;
+    color: #fff;
+    margin: 0.5em 0.5em;
+    float:right;
+}
+.contentblock {background: #FFF;min-height:350px;}
+.splash {
+    margin: 0em auto 0;
+    padding: 0em 0em;
+    background: #eee;
+}
+    .splash .splash-head {
+        font-size: 300%;
+        margin: 0em 0;
+        line-height: 1.2em;
+    }
+    .splash .splash-subhead {
+        color: #666;
+        font-weight: 300;
+        line-height: 1.4em;
+    }
+    .splash .primary-button {
+        font-size: 150%;
+    }
+
+
+.content .content-subhead {
+    color: #999;
+    padding-bottom: 0.3em;
+    text-transform: uppercase;
+    margin: 0;
+    border-bottom: 2px solid #eee;
+    display: inline-block;
+}
+
+.content .content-ribbon {
+    margin: 3em;
+    border-bottom: 1px solid #eee;
+}
+
+.ribbon {
+    background: #eee;
+    text-align: center;
+    padding: 2em;
+    color: #999;
+}
+    .ribbon h2 {
+        display: inline;
+        font-weight: normal;
+    }
+
+.footer {
+margin: 0 0;
+    padding:0em;
+    background:#EEE;
+    color: #999;
+    text-align: center;
+    padding: 1em;
+    font-size: 80%;
+}
+.footer a{color: #999;}
+
